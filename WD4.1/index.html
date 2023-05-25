@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <title>Это веб-страница</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <a name="top"></a>
+            <div>
+                <a href="#bottom">Перейти к нижней части страницы</a>
+            </div>
+            <h1>Здравствуйте, меня зовут <span class="name"> Просветов Никита</span>!</h1>
+            <ul class="header__ul">
+                <li style="color:red;">1</li>
+                <li style="color:green;">2</li>
+                <li style="color:blue;">3</li>
+                <li style="color:orange;">4</li>
+                <li style="color:magenta;">5</li>
+                <li style="color:cyan;">6</li>
+                <li style="color:purple;">7</li>
+                <li style="color:gray;">8</li>
+                <li style="color:pink;">9</li>
+                <li style="color:brown;">10</li>
+            </ul>
+            <h2>Когда была создана эта веб-страница?</h2>
+            <p>Эта веб-страница была создана на <span id="date"></span>.</p>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+            </script>
+            <div>
+                <p>
+                    Лето - это прекрасное время года, когда природа оживает после зимней спячки и наполняется яркими красками и запахами. Это время, когда мы можем наслаждаться солнцем, пляжем, морем и свежим воздухом.
+                </p>
+            </div>
+            <div>
+                <pre>
+                    <code>
+                    let x = 5; 
+                    let y = 10;
+                    let z = x + y;
+                    
+                    console.log(z); //outputs 15<br>
+                    </code>
+                </pre>
+            </div>
+            <p>
+                <span class="span__1"> У лукоморья дуб зелёный;</span>
+                <span class="span__2"> Златая цепь на дубе том:</span>
+                <span class="span__3"> И днём и ночью кот учёный</span>
+                <span class="span__4"> Всё ходит по цепи кругом;</span>
+            </p>
+            <p>
+                Книга, называемая <u> "чебурашка" Эдуард Успенский </u>, повествует о дружбе
+                <strong><em>Что, если Чебурашка на самом деле существует?</em></strong> Любимый ушастый герой
+                друзей-животных в лесу. <strong><em> Захватывающая</em></strong> история о дружбе, мудрости и правде,
+                она навсегда вошла в <strong><em>золотую </em></strong> коллекцию детских классик.
+            </p>
+            <div class="h6__mame">
+                <h1>N</h1>
+                <h2>I</h2>
+                <h3>K</h3>
+                <h4>I</h4>
+                <h5>T</h5>
+                <h6>A</h6>
+            </div>
+            <div class="#">
+                <p class="pow">
+                    1<sup>2</sup> = 1 <br>
+                    2<sup>2</sup> = 4 <br>
+                    3<sup>2</sup> = 9 <br>
+                    4<sup>2</sup> = 16 <br>
+                    5<sup>2</sup> = 25 <br>
+                    6<sup>2</sup> = 36 <br>
+                    7<sup>2</sup> = 49 <br>
+                    8<sup>2</sup> = 64 <br>
+                    9<sup>2</sup> = 81 <br>
+                    10<sup>2</sup> = 100 <br>
+                    11<sup>2</sup> = 121 <br>
+                    12<sup>2</sup> = 144 <br>
+                    13<sup>2</sup> = 169 <br>
+                    14<sup>2</sup> = 196 <br>
+                    15<sup>2</sup> = 225 <br>
+                    16<sup>2</sup> = 256 <br>
+                    17<sup>2</sup> = 289 <br>
+                    18<sup>2</sup> = 324 <br>
+                    19<sup>2</sup> = 361 <br>
+                    20<sup>2</sup> = 400
+                </p>
+            </div>
+            <div>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+            </div>
+            <div>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+            </div>
+            <div>
+                <p>Чебурашка - это персонаж детской литературы, который был придуман писателем Эдуардом Успенским в 1966 году. Он описывается как маленькое зверье с серым мехом и большими круглыми ушами.</p>
+                &nbsp;<p>
+                    Первые рассказы о Чебурашке были опубликованы в журнале "Крокодил", а затем были изданы в книге "Крылья, лапы и хвосты". Они рассказывают о том, как Чебурашка случайно попал в город и стал жить со своим другом - Крокодилом Геной.</p>
+            </div>
+            <div class="ul__normal">
+                <ul>
+                    <li class="bad__ul"></li>
+                    <li class="bad__ul"></li>
+                    <li class="bad__ul"></li>
+                    <li class="bad__ul"></li>
+                </ul>
+                <ul>
+                    <li class="good__ul"></li>
+                    <li class="good__ul"></li>
+                    <li class="good__ul"></li>
+                    <li class="good__ul"></li>
+                </ul>
+            </div>
+            <div class="max">
+                <h1>Текст</h1>
+                <hr />
+                <p>
+                    В 1969 году о Чебурашке был снят полнометражный анимационный фильм, который сразу же стал очень популярным. После этого Чебурашка стал настоящей культурной иконой советского времени.
+                </p>
+            </div>
+            <div class="#">
+                <pre>
+                    В 1969 году о Чебурашке был снят полнометражный анимационный фильм, который сразу же стал очень популярным. После этого Чебурашка стал настоящей культурной иконой советского времени..
+
+                    Сегодня Чебурашка остается очень популярным персонажем
+
+                    его образ используется в различных детских игрушках, книгах!
+                  </pre>
+            </div>
+            <div class="#">
+                <blockquote>
+                    Конечно, лето не всегда бывает безоблачным и солнечным, но даже дождливые дни в этот период года имеют свой особый шарм и очарование. В целом, лето - это время полное радости и жизнерадостности, которое мы ждем каждый год с нетерпением.
+                </blockquote>
+                <q>
+                    Не забывайте про свою физическую форму и занимайтесь спортом, чтобы сохранить свое здоровье и хорошее настроение.
+                </q>
+                <cite>
+                    Это точно!
+                </cite>
+            </div>
+            <div class="#">
+                <p>
+                    <del>
+                        Этот текст был удален
+                    </del>
+                    <br>
+                    <ins>
+                        Этот текст был вставлен
+                    </ins>
+                </p>
+            </div>
+            <div class="#">
+                <ol>
+                    <li><b>Определение 1:</b> Культура (фантастическая цивилизация) — фантастическое сообщество, созданное шотландским писателем Иэном М. Бэнксом. </li>
+                    <li><b>Определени 2:</b>Культура - это искусственно созданный человеком мир, жизнь в котором определяется его - человека - идеалами</li>
+                    <li><b>Определени 3:</b> Культура - это искусственно созданный человеком мир, жизнь в котором определяется его - человека - идеалами. </li>
+                    <li><b>Определени 4:</b> Культура - это степень развития личности, приобщения человека к достижениям науки, искусства,</li>
+                    <li><b>Определени 5:</b> Культура — это нравственные, моральные и материальные ценности, умения, знания, обычаи, традиции. </li>
+                </ol>
+            </div>
+            <div class="letter">
+                <div style="float:left; padding: 1em;">
+                    <p>Иван ивановe<br>
+                        222 парк культуры<br>
+                        Москва, Россия</p>
+                </div>
+                <div style="float:center; padding: 200px 0; ">
+                    <p>Влад Просто<br>
+                        423 Фили<br>
+                        Москва, Россия</p>
+                </div>
+            </div>
+            <div class="#">
+                <strong>1. HTML:</strong> язык разметки гипертекста<br><br>
+                <strong>2. CSS:</strong> каскадные таблицы стилей<br><br>
+                <strong>3. HTTP:</strong> протокол передачи гипертекста<br><br>
+                <strong>4. URL:</strong> унифицированный указатель ресурсов<br><br>
+                <strong>5. SQL:</strong>структурированный язык запросов<br><br>
+                <strong>6. JS:</strong> язык программирования<br><br>
+                <strong>7. SMTP:</strong> простой протокол передачи почты<br><br>
+                <strong>8. FTP:</strong> протокол передачи файлов<br><br>
+                <strong>9. API:</strong> интерфейс программирования приложений<br><br>
+                <strong>10. RAM:</strong> Оперативная память
+            </div>
+            <div class="#">
+                <a href="http://www.google.com">Google</a>
+                <a href="http://www.yahoo.com">Yahoo</a>
+                <a href="http://www.altavista.com">Altavista</a>
+                <a href="http://www.lycos.com">Lycos</a>
+            </div>
+            <div class="#">
+                <a href="http://www.google.com" target="_blank">Google</a>
+                <a href="http://www.yahoo.com" target="_blank">Yahoo</a>
+                <a href="http://www.altavista.com" target="_blank">Altavista</a>
+                <a href="http://www.lycos.com" target="_blank">Lycos</a>
+                <a href="https://dzen.ru/?yredirect=true" target="_blank">Yandex</a>
+            </div>
+            <div class="#">
+                <img src="https://img1.akspic.ru/previews/7/4/7/9/6/169747/169747-ikanvas-art-pechat_na_holste-poster-oblako-500x.jpg" alt="Image1" title="Image 1">
+                <br><br>
+                <img src="https://otkrit-ka.ru/uploads/posts/2021-10/ochen-smeshnye-foto-kartinki-na-zastavku-1.jpg" alt="Image2" title="Image 2">
+                <br><br>
+                <img src="https://n1s1.hsmedia.ru/c6/cb/07/c6cb075801788a8aa6743e7c1d533f59/600x600_1_3385da3571b5694b6829c4da5493ed8e@1200x1200_0xac120004_2890328431678722594.jpeg" alt="Image3" title="Image 3">
+                <br><br>
+                <img src="https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg" alt="Image4" title="Image 4">
+                <br><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6tep_3GiNwkWde5t6uszy_KDvG8GECFdD0A&usqp=CAU" alt="Image5" title="Image 5">
+            </div>
+            <div class="#">
+                <img src="images/google.jpg" width="200" height="200">
+            </div>
+            <div class="#">
+                <a href="https://www.google.com/" target="_blank"><img src="images/google.jpg" alt="Image" width="100" height="100"></a>
+            </div>
+            <div class="#">
+                <a href="https://img1.akspic.ru/previews/7/4/7/9/6/169747/169747-ikanvas-art-pechat_na_holste-poster-oblako-500x.jpg" target="_blank"><img src="https://img1.akspic.ru/previews/7/4/7/9/6/169747/169747-ikanvas-art-pechat_na_holste-poster-oblako-500x.jpg" alt="Image" /></a>
+            </div>
+            <div>
+                <a href="#top">Перейти к началу страницы</a>
+            </div>
+
+            <a name="bottom"></a>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
