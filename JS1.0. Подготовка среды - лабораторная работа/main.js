@@ -1,4 +1,4 @@
-let hi = "Hello, World!";
+let hi = "Ага, попался!";
 
 const i = prompt('Введи возраст');
 
