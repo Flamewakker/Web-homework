@@ -5,7 +5,7 @@ import List from "./For7Task/List";
 import Search from "./For7Task/Search";
 
 function Home7() {
-  const items = ["Apple", "Banana", "Cherry", "Durian"];
+  const items = ["Яблоко", "Помидор", "Клубника", "Арбуз"];
 
   return (
     <div>
@@ -13,13 +13,13 @@ function Home7() {
       <Clock />
 
       {/* Запись ререндинга страницы, работает на все.*/}
-      {/* <Button /> */}
+      <Button />
 
       {/* Поиск */}
-      {/* <Search
+      <Search
         onSearch={(searchValue) => console.log(`Search for ${searchValue}`)}
       />
-      <List items={items} /> */}
+      <List items={items} />
     </div>
   );
 }

@@ -1,17 +1,17 @@
 // 1.	Создайте  объекты «Клиент банка», «Работник клиники», «Гражданин РФ» с символьными значениями в том числе. Выведите их свойства на экран. 
 
 const bankClient = {
-  name: 'John',
+  name: 'Никита',
   id: Symbol('bank_client_id')
 };
 
 const clinicEmployee = {
-  name: 'Mary',
+  name: 'Маша',
   id: Symbol('clinic_employee_id')
 };
 
 const russianCitizen = {
-  name: 'Alex',
+  name: 'Олег',
   id: Symbol('russian_citizen_id')
 };
 

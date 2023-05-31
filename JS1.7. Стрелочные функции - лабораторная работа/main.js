@@ -34,7 +34,7 @@ const isPalindrome = (string) => {
   const reversedString = string.split('').reverse().join('');
   return string === reversedString;
 }
-console.log(isPalindrome ('аникина'));
+console.log(isPalindrome ('Просветов'));
 
 // 4.	Реализуйте в виде стрелочной функции вычисление среднего значения данных в массиве
 

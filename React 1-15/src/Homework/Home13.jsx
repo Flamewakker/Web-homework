@@ -3,10 +3,10 @@ import TaskInput from "./For13Task/TaskInput";
 
 function Home13() {
   const categories = [
-    { id: "personal", name: "Личные", icon: "🏠" },
-    { id: "work", name: "Работа", icon: "💼" },
-    { id: "study", name: "Учеба", icon: "📚" },
-    { id: "leisure", name: "Отдых", icon: "⛱️" },
+    { id: "personal", name: "Голодный", icon: "😓" },
+    { id: "work", name: "Заметки", icon: "😖" },
+    { id: "study", name: "Отдых", icon: "😏" },
+    { id: "leisure", name: "Экзамен", icon: "😨" },
   ];
   const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
   const [tasks, setTasks] = useState([]);

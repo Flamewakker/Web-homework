@@ -1,6 +1,6 @@
 // 1.	Скопируйте код объекта и проанализируйте его работу:
 let user = {
-  name: "Джон",
+  name: "Никита",
   age: 30,
 };
 // Добавим метод для объекта
@@ -13,16 +13,16 @@ user.sayHi(); // Привет!
 // 2.Создайте объект – информация о покупателе (не менее 5 строк) и выведите три из них.
 
 let buyerInfo = {
-  name: "Иван",
-  email: "ivan@mail.com",
+  name: "Петр",
+  email: "petr@mail.com",
   phone: "+7 (999) 123-45-67",
   city: "Москва",
-  address: "ул. Пушкина, д. 10, кв. 5",
+  address: "ул. Пушкина, дом колотушкина, кв. 10",
 };
 
-// console.log(buyerInfo.name);
-// console.log(buyerInfo.phone);
-// console.log(buyerInfo.address);
+console.log(buyerInfo.name);
+console.log(buyerInfo.phone);
+console.log(buyerInfo.address);
 
 // 3.Создайте объекты пользователи, заказы и рестораны с соответствующими значениями. Организуйте вывод информации из объектов по условию.
 
@@ -115,8 +115,8 @@ function printOrdersInRestaurant(restaurantName) {
 }
 
 // Выводим информацию о заказах пользователей в ресторане Burger House
-// console.log("Orders in Burger House:");
-// printOrdersInRestaurant("Burger House");
+console.log("Orders in Burger House:");
+printOrdersInRestaurant("Burger House");
 
 // 4.При помощи функции-конструктора и оператора "new" создайте функцию, выводящую имена вашей группы:
 function User1(name) {
@@ -124,10 +124,10 @@ function User1(name) {
   this.isAdmin = false;
 }
 
-let user = new User1("Вася");
+let user7 = new User1("Никита");
 
-alert(user.name); // Вася
-alert(user.isAdmin); // false
+alert(user7.name); // Никита
+alert(user7.isAdmin); // false
 // 5.Используя конструктор, создайте объект – студент. Передайте конструктору параметры, определяющие, как создавать объект, и что в него записывать:
 function User(name) {
   this.name = name;
@@ -136,11 +136,11 @@ function User(name) {
   };
 }
 
-let vasya = new User("Вася");
+let vasya = new User("Никита");
 
-vasya.sayHi(); // Меня зовут: Вася
+vasya.sayHi(); // Меня зовут: Никита
 
 vasya = {
-  name: "Вася",
+  name: "Никита",
   sayHi: () => User(this.name),
 };

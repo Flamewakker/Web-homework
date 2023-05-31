@@ -64,7 +64,7 @@ console.log(fullAge);
 // Используя данный пример, реализуйте проверку по условию на право редактирования сайта и вывод имени админа.
 
 const users = [
-  { name: 'Алексей', isAdmin: true },
+  { name: 'Никита', isAdmin: true },
   { name: 'Джон', isAdmin: false },
   { name: 'Лиза', isAdmin: true },
   { name: 'Вася', isAdmin: false }
